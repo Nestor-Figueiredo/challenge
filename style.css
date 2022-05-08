@@ -1,22 +1,25 @@
 * {
     font-family: "Inter", sans-serif;
     font-weight: 400;
-    font-size: 32px;
+    /*font-size: 32px;*/
     line-height: 150%;
 }
 
 body {
     background-color: #F3F5FC;
+    font-size: 32px;
 }
 
 main {
     display: flex;
     margin-left: 80px;
     margin-bottom: 50px; 
+    font-size: 32px;
 }
 
 .input-texto {
     margin-top: 90px;
+    font-size: 32px;
     
 }
 
@@ -26,25 +29,52 @@ main {
     margin-left: 90px;
     background-image: url("imagens/boneco.png");
     background-repeat: no-repeat;
+    font-size: 32px;
 
 }
 
 .botoes {
     display: flex;
     flex-direction: row;
-    margin-top: 20px;
-
+    margin-top: 20px;    
+    font-size: 32px;
 }
 
 .encriptar {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: row;
     background-color: darkblue;
     color: white;
+    border-radius: 20px;
+    font-size: 32px;
 }
 
 .desencriptar {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: row;
     margin-left: 30px;
+    border-radius: 20px;      
+    font-size: 32px;
+}
+
+.copiar {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: row;
+    margin-left: 30px;
+    border-radius: 20px;     
+    font-size: 32px;
 }
 
 .informacao {
     font-size: 15px;
+}
+
+.ref {
+    margin-top: 100px;
+    text-align: left;
+    font-size: 9px;
+    background-color: white;
 }
